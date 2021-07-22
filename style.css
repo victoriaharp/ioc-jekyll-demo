@@ -3,3 +3,147 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header,
+footer{
+background-color: lightblue;
+padding: 5%;
+}
+
+section{
+    padding: 5%;
+}
+
+.card{
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 1rem;
+    max-width: 20%;
+    display: inline-block;
+}
+
+
+
+HTML CSS 
+
+Result
+Skip Results Iframe
+
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Source Sans Pro', sans-serif;
+}
+section{
+  min-height: 100vh;
+}
+div{
+  border: 1px solid grey;
+}
+
+/* Utility Classes */
+
+.padded{padding: 7%;}
+.padded-1{padding: 1rem;}
+
+.bg-featured{background-color: #5f27cd;}
+.bg-light{background-color: white;}
+
+.light-text{color: white;}
+
+.bg-image{
+background-color: light-blue;
+background-size: cover;
+background-position: center;
+padding: 0.5rem;
+padding-bottom: 60%;
+color: white;
+}
+.bg-image-1{
+background-image: url('https://source.unsplash.com/EPr4Lbco5Qc');
+}
+.bg-image-2{
+background-image: url('https://source.unsplash.com/AUUdulLnRnE');
+}
+.bg-image-3{
+background-image: url('https://source.unsplash.com/G9Rfc1qccH4');
+}
+
+/* Universal Styles */
+
+h2, h3, h4, h5, h6{
+line-height: 1.1;
+margin-bottom: 0.8rem;
+}
+p{
+line-height: 1.2;
+font-size: 0.9rem;
+margin-bottom: 0.8rem;
+}
+a{
+font-size: 0.9rem;
+text-decoration: none;
+}
+
+.subtle{
+opacity: 0.8;
+}
+
+/* Card Styles */
+.bg-image span{
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.card{
+background-color: white;
+padding: 0;
+border: 0.5rem solid #5f27cd;
+}
+
+.post-info{
+padding: 1rem;
+}
+.date{
+font-size: 0.8rem;
+color: rgb(90,90,90);
+}
+.card a{
+display: inline-block;
+margin-top: 1rem;
+}
+
+@media(max-width: 36em) {
+.horizontal-scroll{
+overflow-x: auto;
+flex-wrap: nowrap;
+}
+.mobile-padded-0{
+padding: 0;
+}
+.mobile-padded{
+padding: 5%;
+}
+
+.latest-news .card{
+margin: 0.2rem;
+margin-bottom: 5%;
+}
+.latest-news .card:first-child{
+margin-left: 1.5rem;
+}
+.latest-news .card:last-child{
+margin-right: 1.5rem;
+}
+}
+/* 
+Image codes:
+EPr4Lbco5Qc
+AUUdulLnRnE
+G9Rfc1qccH4
+*/
+
