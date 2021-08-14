@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* body{
+    font-family: 'Source Sans Pro', sans-serif;
+    } */
 
 header,
 footer{
@@ -12,6 +15,7 @@ padding: 5%;
 
 section{
     padding: 5%;
+    min-height: 100vh;
 }
 
 .card{
@@ -20,26 +24,6 @@ section{
     border-radius: 1rem;
     max-width: 20%;
     display: inline-block;
-}
-
-
-
-HTML CSS 
-
-Result
-Skip Results Iframe
-
-*{
-padding:0;
-margin: 0;
-box-sizing: border-box;
-}
-
-body{
-font-family: 'Source Sans Pro', sans-serif;
-}
-section{
-  min-height: 100vh;
 }
 div{
   border: 1px solid grey;
@@ -56,6 +40,7 @@ div{
 .light-text{color: white;}
 
 .bg-image{
+background-image: url('https://source.unsplash.com/EPr4Lbco5Qc');
 background-color: light-blue;
 background-size: cover;
 background-position: center;
@@ -63,7 +48,7 @@ padding: 0.5rem;
 padding-bottom: 60%;
 color: white;
 }
-.bg-image-1{
+/* .bg-image-1{
 background-image: url('https://source.unsplash.com/EPr4Lbco5Qc');
 }
 .bg-image-2{
@@ -71,7 +56,7 @@ background-image: url('https://source.unsplash.com/AUUdulLnRnE');
 }
 .bg-image-3{
 background-image: url('https://source.unsplash.com/G9Rfc1qccH4');
-}
+} */
 
 /* Universal Styles */
 
